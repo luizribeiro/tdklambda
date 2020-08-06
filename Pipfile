@@ -4,7 +4,7 @@ python_version = '3.8'
 [packages]
 pandas = "1.1.0"
 pyserial = "3.4"
-strictyaml = "1.0.6"
+strictyaml = "1.0.7"
 typed-argument-parser = "1.5.4"
 wasabi = "0.7.1"
 
