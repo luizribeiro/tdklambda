@@ -12,7 +12,7 @@ wasabi = "0.7.1"
 [dev-packages]
 flake8 = "3.8.3"
 freezegun = "0.3.15"
-green = "3.2.0"
+green = "3.2.1"
 pipenv-setup = "3.1.1"
 pre-commit = "2.6.0"
 pyre-check = "0.0.52"
