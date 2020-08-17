@@ -27,7 +27,7 @@ setup(
     packages=find_packages(exclude=["contrib", "docs", "tests"]),
     python_requires=">=3.7",
     install_requires=[
-        "cffi==1.14.1",
+        "cffi==1.14.2",
         "mypy-extensions==0.4.3",
         "numpy==1.19.1; python_version >= '3.6'",
         "pandas==1.1.0",
