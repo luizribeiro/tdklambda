@@ -46,7 +46,7 @@ setup(
         "sniffio==1.1.0; python_version >= '3.5'",
         "strictyaml==1.1.0",
         "typed-argument-parser==1.5.4",
-        "typing-extensions==3.7.4.2",
+        "typing-extensions==3.7.4.3",
         "typing-inspect==0.6.0",
         "wasabi==0.7.1",
     ],
