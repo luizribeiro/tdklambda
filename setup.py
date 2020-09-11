@@ -31,7 +31,7 @@ setup(
         "mashumaro==1.12",
         "msgpack==1.0.0",
         "mypy-extensions==0.4.3",
-        "numpy==1.19.1; python_version >= '3.6'",
+        "numpy==1.19.2; python_version >= '3.6'",
         "pandas==1.1.1",
         "pycparser==2.20; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
         "pynng==0.6.1",
