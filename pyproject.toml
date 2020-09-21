@@ -33,7 +33,7 @@ labby = 'labby.cli:main'
 
 [tool.poetry.dependencies]
 python = "^3.7"
-mashumaro = "1.12"
+mashumaro = "1.13"
 pandas = "1.1.2"
 pynng = "0.6.2"
 pyre-extensions = "0.0.18"

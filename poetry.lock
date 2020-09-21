@@ -218,7 +218,7 @@ description = "Fast serialization framework on top of dataclasses"
 name = "mashumaro"
 optional = false
 python-versions = ">=3.6"
-version = "1.12"
+version = "1.13"
 
 [package.dependencies]
 msgpack = ">=0.5.6"
@@ -665,7 +665,7 @@ docs = ["sphinx", "jaraco.packaging (>=3.2)", "rst.linker (>=1.9)"]
 testing = ["jaraco.itertools", "func-timeout"]
 
 [metadata]
-content-hash = "71420ebf73257017efd0d6442427e4d96a079de9e91d07da3fbb8d48275ba0cf"
+content-hash = "411779634e2421f86fd9dc94955078eb32f1c8b34678851b15bc16593a946ab1"
 lock-version = "1.0"
 python-versions = "^3.7"
 
@@ -828,7 +828,7 @@ lxml = [
     {file = "lxml-4.5.2.tar.gz", hash = "sha256:cdc13a1682b2a6241080745b1953719e7fe0850b40a5c71ca574f090a1391df6"},
 ]
 mashumaro = [
-    {file = "mashumaro-1.12.tar.gz", hash = "sha256:328bd252eeb51959a66c5a465a8ef4877f5ea8ac396af11278ac4bdb06cc49f8"},
+    {file = "mashumaro-1.13.tar.gz", hash = "sha256:8caafe3415ecc8ca41c9d9a07a88882e490b563a243a3b57b1bb2b87a8bbce11"},
 ]
 mccabe = [
     {file = "mccabe-0.6.1-py2.py3-none-any.whl", hash = "sha256:ab8a6258860da4b6677da4bd2fe5dc2c659cff31b3ee4f7f5d64e79735b80d42"},
