@@ -132,7 +132,7 @@ description = "Green is a clean, colorful, fast python test runner."
 name = "green"
 optional = false
 python-versions = "*"
-version = "3.2.1"
+version = "3.2.2"
 
 [package.dependencies]
 colorama = "*"
@@ -665,7 +665,7 @@ docs = ["sphinx", "jaraco.packaging (>=3.2)", "rst.linker (>=1.9)"]
 testing = ["jaraco.itertools", "func-timeout"]
 
 [metadata]
-content-hash = "411779634e2421f86fd9dc94955078eb32f1c8b34678851b15bc16593a946ab1"
+content-hash = "c5032d8274d2f7ac426774a21fdcf6c09da154892d4a60c081f85c242d69a70a"
 lock-version = "1.0"
 python-versions = "^3.7"
 
@@ -776,7 +776,7 @@ freezegun = [
     {file = "freezegun-1.0.0.tar.gz", hash = "sha256:1cf08e441f913ff5e59b19cc065a8faa9dd1ddc442eaf0375294f344581a0643"},
 ]
 green = [
-    {file = "green-3.2.1.tar.gz", hash = "sha256:c5a90e247237ac7e320120961608cf65191134fa400d327cbd4d09864c880935"},
+    {file = "green-3.2.2.tar.gz", hash = "sha256:a7cc909290019903323481a1819addefb9d32b4868773326dec4648c63bbc071"},
 ]
 identify = [
     {file = "identify-1.5.0-py2.py3-none-any.whl", hash = "sha256:0868312cb7402b48cf44fe3f568259f804ef4e983c143d11bf7a51ca311ebc34"},
