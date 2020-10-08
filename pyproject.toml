@@ -39,7 +39,7 @@ pynng = "0.6.2"
 pyre-extensions = "0.0.18"
 pyserial = "3.4"
 strictyaml = "1.1.0"
-typed-argument-parser = "1.5.4"
+typed-argument-parser = "1.6.0"
 wasabi = "0.8.0"
 
 [tool.poetry.dev-dependencies]
