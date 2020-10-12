@@ -125,7 +125,7 @@ python-dateutil = ">=2.7"
 
 [[package]]
 name = "green"
-version = "3.2.2"
+version = "3.2.3"
 description = "Green is a clean, colorful, fast python test runner."
 category = "dev"
 optional = false
@@ -651,7 +651,7 @@ testing = ["jaraco.itertools", "func-timeout"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.7"
-content-hash = "47a7362d87edec3baa308b3194c45c1b5d9c47004d6362a9d3ac6dd6dd83dd68"
+content-hash = "5fa251003fd7fb9ef82c1e629ff670f8616cd8458c7d82a0be13b03347381d24"
 
 [metadata.files]
 appdirs = [
@@ -760,7 +760,7 @@ freezegun = [
     {file = "freezegun-1.0.0.tar.gz", hash = "sha256:1cf08e441f913ff5e59b19cc065a8faa9dd1ddc442eaf0375294f344581a0643"},
 ]
 green = [
-    {file = "green-3.2.2.tar.gz", hash = "sha256:a7cc909290019903323481a1819addefb9d32b4868773326dec4648c63bbc071"},
+    {file = "green-3.2.3.tar.gz", hash = "sha256:2fc2fdd86dbc700ca6afa6d83f1216bb9bcaf4d1b3ae36ba52878ac1b9cd063c"},
 ]
 identify = [
     {file = "identify-1.5.0-py2.py3-none-any.whl", hash = "sha256:0868312cb7402b48cf44fe3f568259f804ef4e983c143d11bf7a51ca311ebc34"},
