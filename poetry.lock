@@ -375,13 +375,14 @@ sniffio = "*"
 
 [[package]]
 name = "pyre-check"
-version = "0.0.52"
+version = "0.0.57"
 description = "A performant type checker for Python"
 category = "dev"
 optional = false
 python-versions = ">=3.6"
 
 [package.dependencies]
+click = "*"
 dataclasses = "*"
 libcst = ">=0.3.6"
 psutil = "*"
@@ -651,7 +652,7 @@ testing = ["jaraco.itertools", "func-timeout"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.7"
-content-hash = "4b772300302efafcbedcf8dc91b262ed0b94ef8e1dc0553b2c81ff8b9789f44d"
+content-hash = "86d083ffdb56c5424ac478f3767fe20627c3ae7c631b7283c3fde48b68240bbf"
 
 [metadata.files]
 appdirs = [
@@ -964,9 +965,9 @@ pynng = [
     {file = "pynng-0.6.2.tar.gz", hash = "sha256:40920554979b49241d98b483383e97885f681a78a24273d51e0f341da8c026f7"},
 ]
 pyre-check = [
-    {file = "pyre-check-0.0.52.tar.gz", hash = "sha256:cf33487283c9f0bf582e07026ed4ae0e0fadb4b50e429edcfc0a60632cb28fe0"},
-    {file = "pyre_check-0.0.52-py3-none-macosx_10_11_x86_64.whl", hash = "sha256:ad251e363a8707f462d34f3b0898b8e0e3b3bec64522eb9e38f85bf872218668"},
-    {file = "pyre_check-0.0.52-py3-none-manylinux1_x86_64.whl", hash = "sha256:2bf97fa0aa4a932d1ce03aa24a4999a6b8e5c89f15eca52e773efb6a1f7f8520"},
+    {file = "pyre-check-0.0.57.tar.gz", hash = "sha256:bbe7d36e158658ab822baf90d5c935f365cffb2b3bb9a95c7e0baa1911b0d118"},
+    {file = "pyre_check-0.0.57-py3-none-macosx_10_11_x86_64.whl", hash = "sha256:b18194efbd78944e8d06987f6ae9da71918747278835882127677f0cde1e070a"},
+    {file = "pyre_check-0.0.57-py3-none-manylinux1_x86_64.whl", hash = "sha256:ce753415c3bc1b6793cd41891dd9a35fdba2de95d73949acaf2b4627e597ee6a"},
 ]
 pyre-extensions = [
     {file = "pyre-extensions-0.0.19.tar.gz", hash = "sha256:dd76371ee33fa359edc7b79ada30af8f66419a59ad54cf75428d89e4038c56aa"},
