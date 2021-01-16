@@ -45,7 +45,7 @@ wasabi = "0.8.0"
 [tool.poetry.dev-dependencies]
 flake8 = "3.8.4"
 freezegun = "1.0.0"
-green = "3.2.4"
+green = "3.2.5"
 pre-commit = "2.7.1"
 pyre-check = "0.0.59"
 python-language-server = "0.35.1"
