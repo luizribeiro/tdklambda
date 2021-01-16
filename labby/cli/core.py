@@ -1,6 +1,6 @@
 from __future__ import annotations
 from abc import ABC, abstractmethod
-from typing import Dict, Generic, Sequence, Type, TypeVar
+from typing import Dict, Generic, Sequence, Type, TypeVar, cast
 
 import pynng.exceptions
 from tap import Tap
@@ -29,8 +29,9 @@ class Command(Generic[TArgumentParser], ABC):
     def __init__(self, config: Config) -> None:
         self.config = config
 
-    def __init_subclass__(cls: Type[Command[BaseArgumentParser]]) -> None:
-        ALL_COMMANDS[f"{cls.TRIGGER}"] = cls
+    def __init_subclass__(cls: Type[object]) -> None:
+        subclass = cast(Type[Command[BaseArgumentParser]], cls)
+        ALL_COMMANDS[f"{subclass.TRIGGER}"] = subclass
 
     def get_client(self) -> Client:
         return Client(DEFAULT_ADDRESS)

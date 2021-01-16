@@ -100,6 +100,7 @@ def patch_time(
     def patched_freeze_time(start_time: str) -> freezegun.api._freeze_time:
         # see https://github.com/spulec/freezegun/issues/307
         f = freezegun.freeze_time(start_time)
+        # pyre-ignore[16]: `freezegun.api._freeze_time` has no attribute `ignore`.
         f.ignore = tuple(set(f.ignore) - {"threading"})
         return f
 
@@ -121,6 +122,7 @@ def patch_time(
 
         def _sleep(seconds: float) -> None:
             sleep_orig(1e-10)
+            # pyre-ignore[16]: `freezegun.api._freeze_time` has no attribute `tick`.
             frozen_time.tick(timedelta(seconds=seconds))
             t.tick()
 

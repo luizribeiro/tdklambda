@@ -122,6 +122,7 @@ class TestExperiment(Experiment[InputParameters, OutputData]):
 
 
 class ClientTest(TestCase):
+    # pyre-ignore[24]: Generic type `unittest.mock._patch` expects 1 type parameter
     req_patch: unittest.mock._patch
     req_mock: MagicMock
     client: Client

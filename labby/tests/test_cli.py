@@ -85,6 +85,7 @@ def _strip_colors(output: str) -> str:
 
 
 class CommandLineTest(TestCase):
+    # pyre-ignore[24]: Generic type `unittest.mock._patch` expects 1 type parameter
     client_patch: unittest.mock._patch
     client_mock: MagicMock
 
@@ -93,7 +94,7 @@ class CommandLineTest(TestCase):
         self.client_mock = self.client_patch.start().return_value
 
     def tearDown(self) -> None:
-        self.client_mock = self.client_patch.stop()
+        self.client_patch.stop()
 
     def main(self, arguments: List[str]) -> Tuple[int, str, str]:
         rc = 0

@@ -49,8 +49,9 @@ _ALL_REQUEST_TYPES: Dict[str, Type["ServerRequest[ServerResponse]"]] = {}
 
 @dataclass(frozen=True)
 class ServerRequest(Generic[TResponse], DataClassMessagePackMixin, ABC):
-    def __init_subclass__(cls: Type["ServerRequest[ServerResponse]"]) -> None:
-        _ALL_REQUEST_TYPES[cls.__name__] = cls
+    def __init_subclass__(cls: Type[object]) -> None:
+        subclass = cast(Type["ServerRequest[ServerResponse]"], cls)
+        _ALL_REQUEST_TYPES[subclass.__name__] = subclass
         super().__init_subclass__()
 
     def get_response_type(cls) -> TResponse:
@@ -102,7 +103,6 @@ class Server:
         with Rep0(listen=address) as rep:
             self._run(rep)
 
-        # pyre-ignore[7]: this never returns anything on the child process
         sys.exit(0)
 
     def stop(self) -> None:
