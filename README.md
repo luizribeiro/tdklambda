@@ -2,7 +2,7 @@
 
 ![CI](https://github.com/luizribeiro/labby/workflows/CI/badge.svg)
 [![codecov](https://codecov.io/gh/luizribeiro/labby/branch/master/graph/badge.svg)](https://codecov.io/gh/luizribeiro/labby)
-[![Python 3.6 | 3.8](https://img.shields.io/badge/python-3.7%20%7C%203.8-blue)](https://www.python.org/downloads/)
+[![Python 3.6 | 3.8 | 3.9](https://img.shields.io/badge/python-3.7%20%7C%203.8%20%7C%203.9-blue)](https://www.python.org/downloads/)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 
 Software for interacting with laboratory equipment and running experiment
