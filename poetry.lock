@@ -325,7 +325,7 @@ test = ["pytest (==4.6.9)", "pytest-cov (==2.8.1)"]
 
 [[package]]
 name = "green"
-version = "3.2.4"
+version = "3.2.5"
 description = "Green is a clean, colorful, fast python test runner."
 category = "dev"
 optional = false
@@ -505,7 +505,7 @@ marshmallow = ">=2.0.0"
 
 [[package]]
 name = "mashumaro"
-version = "1.21"
+version = "1.22"
 description = "Fast serialization framework on top of dataclasses"
 category = "main"
 optional = false
@@ -641,7 +641,7 @@ dev = ["pre-commit", "tox"]
 
 [[package]]
 name = "pre-commit"
-version = "2.7.1"
+version = "2.9.3"
 description = "A framework for managing and maintaining multi-language pre-commit hooks."
 category = "dev"
 optional = false
@@ -776,11 +776,14 @@ typing-inspect = "*"
 
 [[package]]
 name = "pyserial"
-version = "3.4"
+version = "3.5"
 description = "Python Serial Port Extension"
 category = "main"
 optional = false
 python-versions = "*"
+
+[package.extras]
+cp2110 = ["hidapi"]
 
 [[package]]
 name = "python-dateutil"
@@ -809,14 +812,14 @@ test = ["versioneer", "pylint", "pycodestyle", "pyflakes", "pytest", "mock", "py
 
 [[package]]
 name = "python-language-server"
-version = "0.35.1"
+version = "0.36.2"
 description = "Python Language Server for the Language Server Protocol"
 category = "dev"
 optional = false
 python-versions = "*"
 
 [package.dependencies]
-jedi = ">=0.17.0,<0.18.0"
+jedi = ">=0.17.2,<0.18.0"
 pluggy = "*"
 python-jsonrpc-server = ">=0.4.0"
 
@@ -945,7 +948,7 @@ pymysql = ["pymysql"]
 
 [[package]]
 name = "strictyaml"
-version = "1.1.0"
+version = "1.3.1"
 description = "Strict, typed YAML parser"
 category = "main"
 optional = false
@@ -987,7 +990,7 @@ test = ["pytest"]
 
 [[package]]
 name = "typed-argument-parser"
-version = "1.6.0"
+version = "1.6.1"
 description = "Typed Argument Parser"
 category = "main"
 optional = false
@@ -1111,7 +1114,7 @@ testing = ["pytest (>=3.5,!=3.7.3)", "pytest-checkdocs (>=1.2.3)", "pytest-flake
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.7"
-content-hash = "ce08dfc5250ba146276ed663b00f90f2f4f76664769899cd45033e605a9265b3"
+content-hash = "e56fb3afc8a2711483195dffe30d57cc43f63d724860c7d3cececd2b179805e5"
 
 [metadata.files]
 aniso8601 = [
@@ -1298,7 +1301,7 @@ graphql-server-core = [
     {file = "graphql-server-core-1.2.0.tar.gz", hash = "sha256:04ee90da0322949f7b49ff6905688e3a21a9efbd5a7d7835997e431a0afdbd11"},
 ]
 green = [
-    {file = "green-3.2.4.tar.gz", hash = "sha256:3473abb4629c8c1af9f6b59a4f9c757315736580053a64bbfd91ff21ccad57a8"},
+    {file = "green-3.2.5.tar.gz", hash = "sha256:11d595d98afc3363d79e237141ad862c0574a62f92325d9e541ed1b1a54a72ae"},
 ]
 identify = [
     {file = "identify-1.5.12-py2.py3-none-any.whl", hash = "sha256:18994e850ba50c37bcaed4832be8b354d6a06c8fb31f54e0e7ece76d32f69bc8"},
@@ -1415,7 +1418,7 @@ marshmallow-enum = [
     {file = "marshmallow_enum-1.5.1-py2.py3-none-any.whl", hash = "sha256:57161ab3dbfde4f57adeb12090f39592e992b9c86d206d02f6bd03ebec60f072"},
 ]
 mashumaro = [
-    {file = "mashumaro-1.21.tar.gz", hash = "sha256:90d260b13427bad5dd654155dbca786594268c9e12dd853d7c3dcdfbbfcb83db"},
+    {file = "mashumaro-1.22.tar.gz", hash = "sha256:63b7acd90428e3d254b87eccc674a5c5eb181e4054d704e06d1cb9771f32664c"},
 ]
 mccabe = [
     {file = "mccabe-0.6.1-py2.py3-none-any.whl", hash = "sha256:ab8a6258860da4b6677da4bd2fe5dc2c659cff31b3ee4f7f5d64e79735b80d42"},
@@ -1546,8 +1549,8 @@ pluggy = [
     {file = "pluggy-0.13.1.tar.gz", hash = "sha256:15b2acde666561e1298d71b523007ed7364de07029219b604cf808bfa1c765b0"},
 ]
 pre-commit = [
-    {file = "pre_commit-2.7.1-py2.py3-none-any.whl", hash = "sha256:810aef2a2ba4f31eed1941fc270e72696a1ad5590b9751839c90807d0fff6b9a"},
-    {file = "pre_commit-2.7.1.tar.gz", hash = "sha256:c54fd3e574565fe128ecc5e7d2f91279772ddb03f8729645fa812fe809084a70"},
+    {file = "pre_commit-2.9.3-py2.py3-none-any.whl", hash = "sha256:6c86d977d00ddc8a60d68eec19f51ef212d9462937acf3ea37c7adec32284ac0"},
+    {file = "pre_commit-2.9.3.tar.gz", hash = "sha256:ee784c11953e6d8badb97d19bc46b997a3a9eded849881ec587accd8608d74a4"},
 ]
 promise = [
     {file = "promise-2.3.tar.gz", hash = "sha256:dfd18337c523ba4b6a58801c164c1904a9d4d1b1747c7d5dbf45b693a49d93d0"},
@@ -1636,8 +1639,8 @@ pyre-extensions = [
     {file = "pyre_extensions-0.0.20-py3-none-any.whl", hash = "sha256:ce621e5594be1fc88aebd4bc35395a93ebfbcacb2b8d6ed43958f540cab2a820"},
 ]
 pyserial = [
-    {file = "pyserial-3.4-py2.py3-none-any.whl", hash = "sha256:e0770fadba80c31013896c7e6ef703f72e7834965954a78e71a3049488d4d7d8"},
-    {file = "pyserial-3.4.tar.gz", hash = "sha256:6e2d401fdee0eab996cf734e67773a0143b932772ca8b42451440cfed942c627"},
+    {file = "pyserial-3.5-py2.py3-none-any.whl", hash = "sha256:c4451db6ba391ca6ca299fb3ec7bae67a5c55dde170964c7a14ceefec02f2cf0"},
+    {file = "pyserial-3.5.tar.gz", hash = "sha256:3c77e014170dfffbd816e6ffc205e9842efb10be9f58ec16d3e8675b4925cddb"},
 ]
 python-dateutil = [
     {file = "python-dateutil-2.8.1.tar.gz", hash = "sha256:73ebfe9dbf22e832286dafa60473e4cd239f8592f699aa5adaf10050e6e1823c"},
@@ -1648,8 +1651,8 @@ python-jsonrpc-server = [
     {file = "python_jsonrpc_server-0.4.0-py3-none-any.whl", hash = "sha256:e5a908ff182e620aac07db5f57887eeb0afe33993008f57dc1b85b594cea250c"},
 ]
 python-language-server = [
-    {file = "python-language-server-0.35.1.tar.gz", hash = "sha256:6e0c9a3b2ae98e0eb22e98ed6b3c4e190a6bf9e27af53efd2396da60cd92b221"},
-    {file = "python_language_server-0.35.1-py2.py3-none-any.whl", hash = "sha256:7051090259e3e81c0cdb140de8e32b8f11219808cda4427e6faf61f9ff9a3bf4"},
+    {file = "python-language-server-0.36.2.tar.gz", hash = "sha256:9984c84a67ee2c5102c8e703215f407fcfa5e62b0ae86c9572d0ada8c4b417b0"},
+    {file = "python_language_server-0.36.2-py2.py3-none-any.whl", hash = "sha256:a0ad0aca03f4a20c1c40f4f230c6773eac82c9b7cdb026cb09ba10237f4815d5"},
 ]
 pytz = [
     {file = "pytz-2020.5-py2.py3-none-any.whl", hash = "sha256:16962c5fb8db4a8f63a26646d8886e9d769b6c511543557bc84e9569fb9a9cb4"},
@@ -1799,7 +1802,7 @@ sqlalchemy = [
     {file = "SQLAlchemy-1.3.22.tar.gz", hash = "sha256:758fc8c4d6c0336e617f9f6919f9daea3ab6bb9b07005eda9a1a682e24a6cacc"},
 ]
 strictyaml = [
-    {file = "strictyaml-1.1.0.tar.gz", hash = "sha256:6b07dbd4f77ab023ed4167c43ffc1b9f9354fb6075cc6ff3b91fefcbb80342ca"},
+    {file = "strictyaml-1.3.1.tar.gz", hash = "sha256:2a0accba7b400ff02f1cce03ce31e3b21ee30c847f22590b1fa4f625773dc30d"},
 ]
 stringcase = [
     {file = "stringcase-1.2.0.tar.gz", hash = "sha256:48a06980661908efe8d9d34eab2b6c13aefa2163b3ced26972902e3bdfd87008"},
@@ -1813,7 +1816,7 @@ traitlets = [
     {file = "traitlets-5.0.5.tar.gz", hash = "sha256:178f4ce988f69189f7e523337a3e11d91c786ded9360174a3d9ca83e79bc5396"},
 ]
 typed-argument-parser = [
-    {file = "typed-argument-parser-1.6.0.tar.gz", hash = "sha256:db4aa18e8c998bf3e6291e22b93a1ed2d8035a45433bd093a49279ddf5bcc687"},
+    {file = "typed-argument-parser-1.6.1.tar.gz", hash = "sha256:4d8df5d03bc2d5e5e86b7802afc817f4ab5a0445a6f26cafdf3a69166c2fbd03"},
 ]
 typed-ast = [
     {file = "typed_ast-1.4.2-cp35-cp35m-manylinux1_i686.whl", hash = "sha256:7703620125e4fb79b64aa52427ec192822e9f45d37d4b6625ab37ef403e1df70"},
