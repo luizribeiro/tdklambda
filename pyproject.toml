@@ -44,7 +44,7 @@ wasabi = "0.8.0"
 
 [tool.poetry.dev-dependencies]
 flake8 = "3.8.4"
-freezegun = "1.0.0"
+freezegun = "1.1.0"
 green = "3.2.5"
 pre-commit = "2.9.3"
 pyre-check = "0.0.59"
