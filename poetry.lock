@@ -253,7 +253,7 @@ marshmallow = ">=2.0.0"
 
 [[package]]
 name = "mashumaro"
-version = "1.24"
+version = "2.0.2"
 description = "Fast serialization framework on top of dataclasses"
 category = "main"
 optional = false
@@ -718,7 +718,7 @@ testing = ["pytest (>=3.5,!=3.7.3)", "pytest-checkdocs (>=1.2.3)", "pytest-flake
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.7"
-content-hash = "07141055312635337d017b0cbc844d8b96d35acb5e39f5b5aa9d5678c8534b6b"
+content-hash = "3c777bdc3d1728ea120bdfa82be5b40e914c19e7c55c47054f1349ed67d37491"
 
 [metadata.files]
 appdirs = [
@@ -921,7 +921,7 @@ marshmallow-enum = [
     {file = "marshmallow_enum-1.5.1-py2.py3-none-any.whl", hash = "sha256:57161ab3dbfde4f57adeb12090f39592e992b9c86d206d02f6bd03ebec60f072"},
 ]
 mashumaro = [
-    {file = "mashumaro-1.24.tar.gz", hash = "sha256:5b517060e4e06c951bff7befe5c906f2c322dc25142114c1090c5c6dcc927c8d"},
+    {file = "mashumaro-2.0.2.tar.gz", hash = "sha256:ade42256bdf8dc9fe3c65a89645151c263719efd0d9463660329415caa79fcd2"},
 ]
 mccabe = [
     {file = "mccabe-0.6.1-py2.py3-none-any.whl", hash = "sha256:ab8a6258860da4b6677da4bd2fe5dc2c659cff31b3ee4f7f5d64e79735b80d42"},
