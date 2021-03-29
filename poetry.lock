@@ -583,7 +583,7 @@ python-versions = ">=3.5"
 
 [[package]]
 name = "strictyaml"
-version = "1.3.2"
+version = "1.4.0"
 description = "Strict, typed YAML parser"
 category = "main"
 optional = false
@@ -718,7 +718,7 @@ testing = ["pytest (>=3.5,!=3.7.3)", "pytest-checkdocs (>=1.2.3)", "pytest-flake
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.7"
-content-hash = "07141055312635337d017b0cbc844d8b96d35acb5e39f5b5aa9d5678c8534b6b"
+content-hash = "bf618f7e3d8b4c767672805e64f419c22e46b9d2ded3506a6f6e6cd6464eadcf"
 
 [metadata.files]
 appdirs = [
@@ -1241,7 +1241,7 @@ sniffio = [
     {file = "sniffio-1.2.0.tar.gz", hash = "sha256:c4666eecec1d3f50960c6bdf61ab7bc350648da6c126e3cf6898d8cd4ddcd3de"},
 ]
 strictyaml = [
-    {file = "strictyaml-1.3.2.tar.gz", hash = "sha256:637399fd80dccc95f5287b2606b74098b23c08031b7ec33c5afb314ccbf10948"},
+    {file = "strictyaml-1.4.0.tar.gz", hash = "sha256:9f4e5814f96e17e82044a7dbbb8a0976048f2841b073e8114c2a2c025e7f81b9"},
 ]
 stringcase = [
     {file = "stringcase-1.2.0.tar.gz", hash = "sha256:48a06980661908efe8d9d34eab2b6c13aefa2163b3ced26972902e3bdfd87008"},
