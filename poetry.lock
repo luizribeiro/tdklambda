@@ -407,7 +407,7 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
 
 [[package]]
 name = "pynng"
-version = "0.6.2"
+version = "0.7.1"
 description = "Networking made simply using nng"
 category = "main"
 optional = false
@@ -718,7 +718,7 @@ testing = ["pytest (>=3.5,!=3.7.3)", "pytest-checkdocs (>=1.2.3)", "pytest-flake
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.7"
-content-hash = "07141055312635337d017b0cbc844d8b96d35acb5e39f5b5aa9d5678c8534b6b"
+content-hash = "1b9e083e6d6fa88de5c566c6038c00384f453a0dc82b08f8d81f21c2b78e1bd2"
 
 [metadata.files]
 appdirs = [
@@ -1086,24 +1086,31 @@ pyflakes = [
     {file = "pyflakes-2.2.0.tar.gz", hash = "sha256:35b2d75ee967ea93b55750aa9edbbf72813e06a66ba54438df2cfac9e3c27fc8"},
 ]
 pynng = [
-    {file = "pynng-0.6.2-cp36-cp36m-macosx_10_9_x86_64.whl", hash = "sha256:f34cef6f36ed2329590c58a7ad7c536e79459a72c5ce729b9337959b4d8cdba2"},
-    {file = "pynng-0.6.2-cp36-cp36m-manylinux2010_i686.whl", hash = "sha256:8e9306d064c4fee2968710390ac950e367814661198ebaf2e3dae7e05c9c4b6d"},
-    {file = "pynng-0.6.2-cp36-cp36m-manylinux2010_x86_64.whl", hash = "sha256:3cffcbdb7a6c25014f2a19986e09e17c4a4190ac78aaf02474d9918755acfa60"},
-    {file = "pynng-0.6.2-cp36-cp36m-win32.whl", hash = "sha256:a364671316b026f33bc14c31a8dfe5771cd27448e68c9271f4fa2d0abccc62e5"},
-    {file = "pynng-0.6.2-cp36-cp36m-win_amd64.whl", hash = "sha256:3e63760a1b347fe55688a6fa331425b9c4da069d6ac139e5b9d5c6c04abb9689"},
-    {file = "pynng-0.6.2-cp37-cp37m-macosx_10_9_x86_64.whl", hash = "sha256:f9542c63d02d2add00fb791acbb600facb24b9756ab73e2ed5bc338c106a644c"},
-    {file = "pynng-0.6.2-cp37-cp37m-manylinux2010_i686.whl", hash = "sha256:00b05fbeb142823ff68efd0ff47e930476638a1e45ebf41c187513dfaa69d28a"},
-    {file = "pynng-0.6.2-cp37-cp37m-manylinux2010_x86_64.whl", hash = "sha256:03cf3b790fb527ba10ade814d6ddb68498df462e5481e8c59baadb399e00d6a1"},
-    {file = "pynng-0.6.2-cp37-cp37m-win32.whl", hash = "sha256:e867dc622a510b8f169478c2dd15ef85a952493a18cd2de4d7237d00fdf63b89"},
-    {file = "pynng-0.6.2-cp37-cp37m-win_amd64.whl", hash = "sha256:178c53b88877bc5eb1790c83e4f6b51f8a2afd5c13c3608d38741643ae02c54a"},
-    {file = "pynng-0.6.2-cp38-cp38-macosx_10_9_x86_64.whl", hash = "sha256:7eecd53de282e8bb6bb8ec0794c3b97c9da46f16980f58704a3e5aa3fedf19b8"},
-    {file = "pynng-0.6.2-cp38-cp38-manylinux2010_i686.whl", hash = "sha256:57051270d7f35c5a4af67476861579093787308f6e4500bbb82bba239ba31898"},
-    {file = "pynng-0.6.2-cp38-cp38-manylinux2010_x86_64.whl", hash = "sha256:838f815bccf959845af2f57128fccd5fdff70c075f546853c73a6a38cb91db99"},
-    {file = "pynng-0.6.2-cp38-cp38-win32.whl", hash = "sha256:925cc04304278ddb9515f2d1ca7f12baf96b5ef84972f51b704522b9911fb2f0"},
-    {file = "pynng-0.6.2-cp38-cp38-win_amd64.whl", hash = "sha256:bf1eeefce61ef33c725106c6e8f0693d33f704b3bf89767f2263e67bdb139a84"},
-    {file = "pynng-0.6.2-pp36-pypy36_pp73-macosx_10_9_x86_64.whl", hash = "sha256:8678bd41e40d3e3d0cdebd410e1d6767a8e30f3b09470c2bbb1b5c38240e59a9"},
-    {file = "pynng-0.6.2-pp36-pypy36_pp73-manylinux2010_x86_64.whl", hash = "sha256:ec3e270b73feb57a7ca059de1048e80a60b7fd73b073cc0501884f41fa9ccade"},
-    {file = "pynng-0.6.2.tar.gz", hash = "sha256:40920554979b49241d98b483383e97885f681a78a24273d51e0f341da8c026f7"},
+    {file = "pynng-0.7.1-cp36-cp36m-macosx_10_9_x86_64.whl", hash = "sha256:4dfd4da486053c2abee342fb945da9bacb5ad6331411ddd4fe3149a1b7eb7545"},
+    {file = "pynng-0.7.1-cp36-cp36m-manylinux2010_i686.whl", hash = "sha256:4d98a07a6494d6dc5d0c924b247eb756a116b0771302f23ff3ff7562458935bf"},
+    {file = "pynng-0.7.1-cp36-cp36m-manylinux2010_x86_64.whl", hash = "sha256:722ea01b737ab1122aefabbccb76993dabbe1fc8d8db4597ad6b83e20bd52f6d"},
+    {file = "pynng-0.7.1-cp36-cp36m-win32.whl", hash = "sha256:bf2e916079a7226eba451018f686a48eabe5c7816f92dd4adb5f038c19082c15"},
+    {file = "pynng-0.7.1-cp36-cp36m-win_amd64.whl", hash = "sha256:545654dff2d926e3660d721ca249258d540aecfad05c4bdefc52968c55fa4305"},
+    {file = "pynng-0.7.1-cp37-cp37m-macosx_10_9_x86_64.whl", hash = "sha256:afea1bf1555d22ec28acf338f0cb132d4062892a041abee36b0f5257101aec30"},
+    {file = "pynng-0.7.1-cp37-cp37m-manylinux2010_i686.whl", hash = "sha256:288f6d8fa80eecc468adccdb85d67ff71f7913918807644ebd548ad5ea67e234"},
+    {file = "pynng-0.7.1-cp37-cp37m-manylinux2010_x86_64.whl", hash = "sha256:a6046e4da32bae67ef75c64dd3ef72b83a0e0dd7bf53cd5896aba61f8d03f0a6"},
+    {file = "pynng-0.7.1-cp37-cp37m-win32.whl", hash = "sha256:5754c7d1c7577d9e2d813f969e8efb1ecf28491421b2b4f0435c3894161cc904"},
+    {file = "pynng-0.7.1-cp37-cp37m-win_amd64.whl", hash = "sha256:6090129200612d41a2b4b1542883c62ef48d64d0205160e59b4f6ec26fedaa4c"},
+    {file = "pynng-0.7.1-cp38-cp38-macosx_10_9_x86_64.whl", hash = "sha256:4360bc58797c165aef6335fa34966b2c37384510e26d25148332e851cbce3989"},
+    {file = "pynng-0.7.1-cp38-cp38-manylinux2010_i686.whl", hash = "sha256:0dfae475543ffd22a3f3d87698891cfeb3745318ce72ac4208318d42f33c932b"},
+    {file = "pynng-0.7.1-cp38-cp38-manylinux2010_x86_64.whl", hash = "sha256:21c1dce743d09996feb706b5459d547649b78cf4454fe6dde1bfcac7441988f9"},
+    {file = "pynng-0.7.1-cp38-cp38-win32.whl", hash = "sha256:8d5913523773a2b2a4869e01747570c7b305285f5672247e200f631cdd93a1f8"},
+    {file = "pynng-0.7.1-cp38-cp38-win_amd64.whl", hash = "sha256:c00bbb03abe562f1c5ed6e6748a06aa97f2641f9254cee06fea6ed5421193302"},
+    {file = "pynng-0.7.1-cp39-cp39-macosx_10_9_x86_64.whl", hash = "sha256:50dbed52cfa01257606d4e0672d4589d3a024a1e473e68d5d5054cb23d01155b"},
+    {file = "pynng-0.7.1-cp39-cp39-manylinux2010_i686.whl", hash = "sha256:c36c6c188831100be7565ca8ceb8573632166832cf9a52de4d321e36ae775193"},
+    {file = "pynng-0.7.1-cp39-cp39-manylinux2010_x86_64.whl", hash = "sha256:9a128cb71abae6c3cd1c6ed34f844eb7eac51207551ff4fcca92329a728da840"},
+    {file = "pynng-0.7.1-cp39-cp39-win32.whl", hash = "sha256:56ce1daee7ee0cdd08ae5634473ea7560c4de2720d304f89bbcb910aec1d7545"},
+    {file = "pynng-0.7.1-cp39-cp39-win_amd64.whl", hash = "sha256:2d2d793b45d40b5927c912f3c4ac44fc3f078b0ee8ae11b96141341b62d7a2c7"},
+    {file = "pynng-0.7.1-pp36-pypy36_pp73-manylinux2010_x86_64.whl", hash = "sha256:228a22c156ffeccb009b9c85f2ee2bc3fd0afb66085c23024defa4b91cfe0003"},
+    {file = "pynng-0.7.1-pp37-pypy37_pp73-macosx_10_9_x86_64.whl", hash = "sha256:0bad3e6da75bac22bac6bd58c859e65f2efe0eec13397c64ca735b97c04d8b8d"},
+    {file = "pynng-0.7.1-pp37-pypy37_pp73-manylinux2010_x86_64.whl", hash = "sha256:47e976367784625b69a907cc76de4da3c59c292184af578273a5dceb6455322b"},
+    {file = "pynng-0.7.1-pp37-pypy37_pp73-win32.whl", hash = "sha256:0e3d7472577861041e59cc8d43fbacdff1570dce9613a4e67cbec2d7f310ad8c"},
+    {file = "pynng-0.7.1.tar.gz", hash = "sha256:5edd3ccbeda2264d750d81533a11d45b5efbf8d99da65ba1f4569636f0eb9b70"},
 ]
 pyre-check = [
     {file = "pyre-check-0.0.60.tar.gz", hash = "sha256:2a2112315f3a5670d4de9dd95773207b1f5e70b432a47208c50462edea6c16d3"},
