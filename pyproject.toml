@@ -33,7 +33,7 @@ labby = 'labby.cli:main'
 
 [tool.poetry.dependencies]
 python = "^3.7.1"
-mashumaro = "2.4"
+mashumaro = "2.5"
 pandas = "1.2.4"
 pynng = "0.7.1"
 pyre-extensions = "0.0.21"
@@ -45,7 +45,7 @@ wasabi = "0.8.2"
 [tool.poetry.dev-dependencies]
 flake8 = "3.9.1"
 freezegun = "1.1.0"
-green = "3.2.5"
+green = "3.2.6"
 pre-commit = "2.12.1"
 pyre-check = "0.9.0"
 python-language-server = "0.36.2"
